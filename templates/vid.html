@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://s3.amazonaws.com/myadvobuck/static/libs/typed.min.js"></script>
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .bodyimage{
+            background-image: url('/download\ \(1\).jpg');
+            height: 100vh;
+        }
+    </style>
+</head>
+<body>
+    <div class="bodyimage">
+        <div id="typedstring">
+            <p>Hi, this is Hanzla</p>
+            <p>I am a programmer</p>
+        </div>
+        <span id="typed"></span>
+    </div>
+
+    <script>
+        var Type = new Typed('#typed',{
+            stringElements: '#typedstring',
+
+        });
+    </script>
+    
+</body>
+</html>
